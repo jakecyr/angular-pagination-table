@@ -7,7 +7,7 @@ This project contains the source code for an Angular library with a pagination t
 Install the package from the public npm package repository:
 
 ```
-npm install
+npm install @jakecyr/pagination-table --save
 ```
 
 Import the module into your Angular application module. Example:
