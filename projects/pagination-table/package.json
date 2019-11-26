@@ -1,7 +1,20 @@
 {
+    "version": "0.0.4",
     "name": "@jakecyr/pagination-table",
     "private": false,
-    "version": "0.0.3",
+    "author": {
+        "email": "cyrjake@gmail.com",
+        "name": "Jake Cyr",
+        "url": "https://jakecyr.com"
+    },
+    "description": "Angular library with pagination table component. All pagination logic is handled for you.",
+    "keywords": [
+        "angular",
+        "angular pagination",
+        "pagination",
+        "angular library"
+    ],
+    "homepage": "https://github.com/jakecyr/angular-pagination-table#readme",
     "scripts": {
         "test": "jest"
     },
