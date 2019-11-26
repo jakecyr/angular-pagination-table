@@ -34,6 +34,7 @@ Replace your current table element with the table pagination component:
     [headers]="[{key: 'title', title: 'Title'}, {key: 'id', title: 'ID'}]"
     [perPage]="1"
     tableClasses="table-style"
+    buttonClasses="button-style"
     (clickRow)="handleClickedRow($event)">
 </lib-pagination-table>
 ```
