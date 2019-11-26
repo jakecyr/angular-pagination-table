@@ -12,7 +12,7 @@
         </tbody>
     </table>
 
-    <div class="">
+    <div>
         <button [class]="buttonClasses" [disabled]="currentPage == 0 || maxPages == 0" (click)="decrementPage()">Previous</button>
         <button [class]="buttonClasses" [disabled]="currentPage == (maxPages - 1) || maxPages == 0" (click)="incrementPage()">Next</button>
     </div>
