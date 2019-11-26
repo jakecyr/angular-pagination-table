@@ -1,6 +1,6 @@
-# AngularPagination
+# Angular Pagination Component Library
 
-This project contains the source code for an Angular library with a pagination table component.
+This project contains the source code for an Angular library with a pagination table component. The Angular component handles all pagination logic for you.
 
 ## How to use
 
