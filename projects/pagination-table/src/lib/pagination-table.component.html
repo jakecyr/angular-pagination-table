@@ -1,0 +1,19 @@
+<div *ngIf="data && headers">
+    <table>
+        <thead>
+            <tr>
+                <th *ngFor="let header of headers">{{ header.title || header.key }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of currentData">
+                <td *ngFor="let header of headers">{{ row[header.key] }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="">
+        <button [disabled]="currentPage == 0 || maxPages == 0" (click)="decrementPage()">Previous</button>
+        <button [disabled]="currentPage == (maxPages - 1) || maxPages == 0" (click)="incrementPage()">Next</button>
+    </div>
+</div>
