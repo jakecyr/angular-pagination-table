@@ -1,5 +1,5 @@
 <div *ngIf="data && headers">
-    <table>
+    <table [class]="tableClasses">
         <thead>
             <tr>
                 <th *ngFor="let header of headers">{{ header.title || header.key }}</th>
@@ -13,7 +13,7 @@
     </table>
 
     <div class="">
-        <button [disabled]="currentPage == 0 || maxPages == 0" (click)="decrementPage()">Previous</button>
-        <button [disabled]="currentPage == (maxPages - 1) || maxPages == 0" (click)="incrementPage()">Next</button>
+        <button [class]="buttonClasses" [disabled]="currentPage == 0 || maxPages == 0" (click)="decrementPage()">Previous</button>
+        <button [class]="buttonClasses" [disabled]="currentPage == (maxPages - 1) || maxPages == 0" (click)="incrementPage()">Next</button>
     </div>
 </div>

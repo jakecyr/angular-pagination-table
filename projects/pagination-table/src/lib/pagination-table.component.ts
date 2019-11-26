@@ -13,6 +13,7 @@ export class PaginationTableComponent implements OnChanges {
     @Input() data: DataRow[];
     @Input() headers: Header[];
     @Input() tableClasses: string;
+    @Input() buttonClasses: string;
     @Input() perPage: number;
 
     @Output() clickRow = new EventEmitter<DataRow[]>();
