@@ -1,1 +1,1 @@
-# angular-pagination-table
+# Angular Pagination Table
